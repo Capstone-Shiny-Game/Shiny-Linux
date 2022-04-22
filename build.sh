@@ -1,3 +1,5 @@
+#!/bin/sh
+set -euxo pipefail
 rm -f Shiny-x86_64.AppImage
 rm -f Shiny-x86_64.tar.gz
 chmod a+x ./Shiny.AppDir/Shiny.x86_64
